@@ -1,0 +1,12 @@
+<block wx:if="{{$taroCompReady}}">
+    <view class="{{className + ' container'}}">
+        <block>
+            <block wx:if="{{loading}}">
+                <view class="flex_center loading">加载中</view>
+            </block>
+            <block wx:else>
+                <slot></slot>
+            </block>
+        </block>
+    </view>
+</block>

@@ -1,0 +1,8 @@
+<block wx:if="{{$taroCompReady}}">
+    <container>
+        <view class="page_home">
+            <painter customStyle="margin-left:40rpx" imgOK="{{onImgOk}}" palette="{{template}}"></painter>
+            <view bindtap="save">合成</view>
+        </view>
+    </container>
+</block>

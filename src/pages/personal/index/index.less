@@ -1,0 +1,48 @@
+@import "~@/styles/mixin.less";
+
+.personal_index {
+  padding: 0 32px;
+
+  .top {
+    .flex_row;
+    padding-top: 40px;
+    margin-bottom: 40px;
+
+    .avatar {
+      width: 144px;
+      height: 144px;
+      border-radius: 50%;
+      overflow: hidden;
+      margin-right: 32px;
+    }
+
+    .info_wrap {
+      .flex_center_column;
+      flex: 1;
+      align-items: flex-start;
+
+      .name {
+        font-size: 40px;
+        font-weight: 500;
+        color: rgba(33, 33, 33, 1);
+        line-height: 56px;
+        margin-bottom: 8px;
+      }
+
+      .tel {
+        font-size: 28px;
+        font-weight: 400;
+        color: rgba(150, 150, 150, 1);
+        line-height: 40px;
+      }
+    }
+  }
+
+
+  .banner {
+
+    width: 686px;
+    height: 204px;
+    background: #eee;
+  }
+}

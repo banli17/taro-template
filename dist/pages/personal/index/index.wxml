@@ -1,0 +1,18 @@
+<block wx:if="{{$taroCompReady}}">
+    <container>
+        <view class="personal_index">
+            <view class="top">
+                <view class="avatar">
+                    <image class="img" src="{{anonymousState__temp}}"></image>
+                </view>
+                <view class="info_wrap">
+                    <view class="name">米谢兜兜转</view>
+                    <view class="tel">183 **** 2262</view>
+                </view>
+            </view>
+            <view class="banner">
+                <image></image>
+            </view>
+        </view>
+    </container>
+</block>

@@ -1,0 +1,27 @@
+{
+  "miniprogramRoot": "./",
+  "projectname": "pay_mini",
+  "description": "支付小程序",
+  "appid": "wx865de8fc293f1ec7",
+  "setting": {
+    "urlCheck": false,
+    "es6": false,
+    "postcss": false,
+    "minified": false,
+    "newFeature": true,
+    "coverView": true,
+    "autoAudits": false,
+    "checkInvalidKey": true,
+    "checkSiteMap": true,
+    "uploadWithSourceMap": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    }
+  },
+  "compileType": "miniprogram",
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
+  "condition": {}
+}

@@ -1,0 +1,9 @@
+.container {
+  min-height: 100%;
+}
+.container .loading {
+  color: #ddd;
+  font-size: 14rpx;
+  height: 500rpx;
+}
+
